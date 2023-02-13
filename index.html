@@ -1,7 +1,163 @@
 <!DOCTYPE html>
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+  <script>
+  if(window == top){
+    var win = window.open();
+    if(win){
+    win.document.write('<iframe src="' + location.href + '" class="access-frame" style="position: absolute; overflow-x: hidden; width: 100%; height: 100%; display: block; border: none; position: absolute; left: 0; up: 0;"></iframe>');
+    location.href = "https://lms.fcps.edu";
+    } else{
+          (function () {
+        if (
+          document.referrer &&
+          document.location.host &&
+          document.referrer.match(
+            new RegExp("^https?://" + document.location.host)
+          )
+        ) {
+          document
+            .getElementById("back-link")
+            .setAttribute("href", document.referrer);
+        }
+      })();
+document.write("<html><head>");
+document.write("    <meta charset=\"utf-8\">");
+document.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">");
+document.write("");
+document.write("    <title>Site Not Found</title>");
+document.write("    <style>");
+document.write("      :root {");
+document.write("        --colorDefaultTextColor: #A3A9AC;");
+document.write("        --colorDefaultTextColorCard: #2D3B41;");
+document.write("        --colorBgApp: rgb(14, 30, 37);");
+document.write("        --colorBgInverse: hsl(175, 48%, 98%);");
+document.write("        --colorTextMuted: rgb(100, 110, 115);");
+document.write("        --colorError: #D32254;");
+document.write("        --colorBgCard: #fff;");
+document.write("        --colorShadow: #0e1e251f;");
+document.write("        --colorErrorText: rgb(142, 11, 48);");
+document.write("        --colorCardTitleCard: #2D3B41;");
+document.write("        --colorStackText: #222;");
+document.write("        --colorCodeText: #F5F5F5");
+document.write("      }");
+document.write("      body {");
+document.write("        font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto,");
+document.write("          Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\",");
+document.write("          \"Segoe UI Symbol\";");
+document.write("        background: rgb(52, 56, 60);");
+document.write("        color: white;");
+document.write("        overflow: hidden;");
+document.write("        margin: 0;");
+document.write("        padding: 0;");
+document.write("        font-size: 1rem;");
+document.write("        line-height: 1.5;");
+document.write("      }");
+document.write("");
+document.write("      h1 {");
+document.write("        margin: 0;");
+document.write("        font-size: 1.375rem;");
+document.write("        line-height: 1.2;");
+document.write("      }");
+document.write("");
+document.write("      .main {");
+document.write("        position: relative;");
+document.write("        display: flex;");
+document.write("        flex-direction: column;");
+document.write("        align-items: center;");
+document.write("        justify-content: center;");
+document.write("        height: 100vh;");
+document.write("        width: 100vw;");
+document.write("      }");
+document.write("");
+document.write("      .card {");
+document.write("        position: relative;");
+document.write("        display: flex;");
+document.write("        flex-direction: column;");
+document.write("        width: 75%;");
+document.write("        max-width: 500px;");
+document.write("        padding: 24px;");
+document.write("        background: white;");
+document.write("        color: rgb(14, 30, 37);");
+document.write("        border-radius: 8px;");
+document.write("        box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.16);");
+document.write("      }");
+document.write("");
+document.write("      a {");
+document.write("        margin: 0;");
+document.write("        font-weight: 600;");
+document.write("        line-height: 24px;");
+document.write("        color: #054861;");
+document.write("      }");
+document.write("");
+document.write("      a svg {");
+document.write("        position: relative;");
+document.write("        top: 2px;");
+document.write("      }");
+document.write("");
+document.write("      a:hover,");
+document.write("      a:focus {");
+document.write("        text-decoration: none;");
+document.write("      }");
+document.write("");
+document.write("      a:hover svg path {");
+document.write("        fill: #007067;");
+document.write("      }");
+document.write("");
+document.write("      p:last-of-type {");
+document.write("        margin-bottom: 0;");
+document.write("      }");
+document.write("");
+document.write("      .inline-code {");
+document.write("        display: inline-block;");
+document.write("        background-color: var(--colorCodeText);");
+document.write("        color: var(--colorStackText);");
+document.write("        padding: 4px 8px;");
+document.write("        border-radius: 8px;");
+document.write("        font-size: 1rem;");
+document.write("        overflow-wrap: anywhere;");
+document.write("      }");
+document.write("    </style>");
+document.write("  </head>");
+document.write("  <body>");
+document.write("    <div class=\"main\">");
+document.write("      <div class=\"card\">");
+document.write("        <div class=\"header\">");
+document.write("          <h1>Site Not Found</h1>");
+document.write("        </div>");
+document.write("        <div class=\"body\">");
+document.write("          <p>");
+document.write("            Looks like you've followed a broken link or entered a URL that");
+document.write("            doesn't exist on Netlify.");
+document.write("          </p>");
+document.write("          <p>");
+document.write("            <a id=\"back-link\" href=\"/\">");
+document.write("              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" style=\"margin-right: 4px;\">");
+document.write("                <path fill=\"#007067\" d=\"M11.9998836,4.09370803 L8.55809517,7.43294953 C8.23531459,7.74611298 8.23531459,8.25388736 8.55809517,8.56693769 L12,11.9062921 L9.84187871,14 L4.24208544,8.56693751 C3.91930485,8.25388719 3.91930485,7.74611281 4.24208544,7.43294936 L9.84199531,2 L11.9998836,4.09370803 Z\"></path>");
+document.write("              </svg>Back to our site");
+document.write("            </a>");
+document.write("          </p>");
+document.write("          <hr>");
+document.write("          <p>");
+document.write("            If this is your site, and you weren't expecting a 404 for this path,");
+document.write("            please visit Netlify's");
+document.write("            <a href=\"https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125?utm_source=404page&amp;utm_campaign=community_tracking\">\"page not found\" support guide</a>");
+document.write("            for troubleshooting tips.");
+document.write("          </p>");
+document.write("          <p style=\"color: var(--colorTextMuted);\">");
+document.write("            Netlify Internal ID:");
+document.write("            <span class=\"inline-code request-id\"><code>01GS5D08PZT31ABV4139ASQ8NS</code></span>");
+document.write("          </p>");
+document.write("        </div>");
+document.write("      </div>");
+document.write("    </div>");
+document.write("  ");
+document.write("");
+document.write("</body></html>");
+
+    }
+  }
+  </script>
   <title>Blocked</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon2.ico" type="image/x-icon">
