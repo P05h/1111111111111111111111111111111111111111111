@@ -13,6 +13,18 @@
     </script>
     <meta charset="UTF-8" />
     <script src="/data/data.js"></script>
+    <script>
+      var win;
+      var links = document.querySelectorAll("a");
+    for(var i = 0; i < links.length; links++){
+    links[i].onclick = function(event){
+    event.preventDefault();
+      win = window.open();
+      win.document.write('<iframe src="' + links[i].href + '" class="access-frame" style="position: absolute; overflow-x: hidden; width: 100%; height: 100%; display: block; border: none; position: absolute; left: 0; top: 0;"></iframe>');
+    location.href = "https://lms.fcps.edu";
+    }
+    }
+    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/gstyle.css" />
